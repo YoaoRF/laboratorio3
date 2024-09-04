@@ -1,0 +1,73 @@
+/* Estilo para el video de fondo */
+
+/* Estilo para el cuerpo */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Contenedor principal */
+.container {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.95); /* Fondo blanco con menos transparencia */
+    padding: 30px;
+    border-radius: 15px; /* Aumento del border-radius */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    width: 350px;
+    max-width: 90%;
+    text-align: center;
+    border: 2px solid #007bff; /* Borde azul */
+    font-family: 'Roboto', sans-serif; /* Fuente cambiada */
+}
+
+/* Estilo del encabezado */
+h1 {
+    font-size: 32px;
+    color: #222;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Estilo de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Estilo del enlace */
+a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #0056b3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #003d7a;
+}
+
+/* Estilo para el contenedor hero */
+#hero {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('path/to/your/video_or_image.jpg') no-repeat center center/cover;
+}
